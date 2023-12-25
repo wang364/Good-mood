@@ -4,18 +4,11 @@ var BLACK_ICON = 'https://icanhazdadjoke.com/static/smile.svg';
 var dadjokeurl = 'https://icanhazdadjoke.com/';
 var onBtnClick = function (t, opts) {
     console.log('Someone clicked the button');
-    //fetch date from icanhazdadjoke.com
-    fetch(url)
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (response) {
-            return t.modal({
-                title: "Good Day!",
-                url: 'good_day.html'
-            });
-        });
     
+    return t.modal({
+        title: "Good Day!",
+        url: 'good_day.html'
+    });
 };
 
 window.TrelloPowerUp.initialize({
