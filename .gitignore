@@ -1,0 +1,5 @@
+# development dependencies
+/node_modules
+
+# temp files
+yarn.lock
