@@ -2,7 +2,6 @@
   "name": "Good-day",
   "version": "1.0.0",
   "description": "A power-up for starting a good day.",
-  "main": "index.js",
   "repository": "https://github.com/wang364/Good-day.git",
   "author": "bowang",
   "license": "MIT",
