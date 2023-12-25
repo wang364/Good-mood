@@ -5,17 +5,18 @@
   </head>
   <body>
     <div id="content">
-        <p>Dad jokes!</p>
+      <p>Dad jokes!</p>
     </div>
     <script>
-        //fetch date from icanhazdadjoke.com
-        fetch(url)
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (response) {
-            
-        });
+      var dadjokeurl = 'https://icanhazdadjoke.com/';
+      //fetch date from icanhazdadjoke.com
+      fetch(dadjokeurl)
+      .then(function (response) {
+          return response.json();
+      })
+      .then(function (response) {
+          
+      });
     </script>
   </body>
 </html>
