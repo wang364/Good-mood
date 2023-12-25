@@ -7,7 +7,7 @@
   "author": "bowang",
   "license": "MIT",
   "scripts": {
-    "build": "parcel buld src/html/*.html"
+    "build": "parcel build src/html/*.html"
   },
   "devDependencies": {
     "parcel": "^2.10.3"
