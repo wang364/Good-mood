@@ -8,15 +8,18 @@
       <p>Dad jokes!</p>
     </div>
     <script>
-    //   var dadjokeurl = 'https://icanhazdadjoke.com/';
-    //   //fetch date from icanhazdadjoke.com
-    //   fetch(dadjokeurl)
-    //   .then(function (response) {
-    //       return response.json();
-    //   })
-    //   .then(function (data) {
-    //       console.log(data)
-    //   });
+      let dadjokeurl = 'https://icanhazdadjoke.com/';
+      //fetch date from icanhazdadjoke.com
+      fetch(dadjokeurl)
+      .then(function(response) {
+          return response.json();
+      })
+      .then(function(data) {
+          console.log(data)
+      })
+      .catch(function(error){
+          console.log(error);
+      });
     </script>
   </body>
 </html>
