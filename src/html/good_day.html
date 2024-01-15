@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="https://p.trellocdn.com/power-up.min.css" />
+    <script src="https://p.trellocdn.com/power-up.min.js"></script>
   </head>
   <body>
     <div id="content">
@@ -10,19 +11,27 @@
     </div>
     <script>
         try {
-            let dadjokeurl = 'https://icanhazdadjoke.com/';
-            //fetch date from icanhazdadjoke.com
-            fetch(dadjokeurl)
+            fetch('https://icanhazdadjoke.com/', {
+                headers: {
+                    "Accept": "application/json",
+                },
+            })
                 .then(response => {
                     return response.json();
                 })
                 .then(data => {
-                    console.log(data);
+                    displayJoke(data.joke);
                 });
         } catch (error) {
             console.error("Error: ", error);
         };
+
+        function displayJoke(data) {
+            const body = document.querySelector('body');
+            const p = document.createElement('p');
+            p.textContent = data;
+            body.appendChild(p);
+        }
     </script>
-    <script src="https://p.trellocdn.com/power-up.min.js"></script>
   </body>
 </html>
