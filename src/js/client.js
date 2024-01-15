@@ -3,8 +3,6 @@ var BLACK_ICON = 'https://icanhazdadjoke.com/static/smile.svg';
 
 var dadjokeurl = 'https://icanhazdadjoke.com/';
 var onBtnClick = function (t, opts) {
-    console.log('Someone clicked the button');
-    
     return t.modal({
         title: "Good Day!",
         url: 'good_day.html'
