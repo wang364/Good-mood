@@ -4,8 +4,8 @@ var BLACK_ICON = 'https://icanhazdadjoke.com/static/smile.svg';
 var dadjokeurl = 'https://icanhazdadjoke.com/';
 var onBtnClick = function (t, opts) {
     return t.modal({
-        title: "Good Day!",
-        url: 'good_day.html'
+        title: "!",
+        url: 'good_mood.html'
     });
 };
 
