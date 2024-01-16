@@ -1,4 +1,4 @@
-# Good day
+# Good mood
 
 ## Dev externsions:
 1. eslint     - lint
