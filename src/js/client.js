@@ -4,7 +4,7 @@ var BLACK_ICON = 'https://icanhazdadjoke.com/static/smile.svg';
 var dadjokeurl = 'https://icanhazdadjoke.com/';
 var onBtnClick = function (t, opts) {
     return t.modal({
-        title: "!",
+        title: "Keep a good mood!",
         url: 'good_mood.html'
     });
 };
