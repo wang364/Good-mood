@@ -1,1 +1,1 @@
-Good days
+Have a Good Mood!
