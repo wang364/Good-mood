@@ -31,6 +31,15 @@
             p.textContent = data;
             body.appendChild(p);
         }
+
+        var xhr = $.get("http://api.giphy.com/v1/gifs/search?q=funny&api_key=awEx0G1tfuWQDbz6jXdFEHAwoYmpdiyA&limit=5");
+        xhr.done(function(data) { console.log("success got data", data); displayGif(data.url)});
+
+        function displayGif(url) {
+
+        }
+
+        
     </script>
   </body>
 </html>
