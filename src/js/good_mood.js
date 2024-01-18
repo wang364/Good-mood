@@ -16,7 +16,7 @@ try {
 };
 
 function displayJoke(joke) {
-    const body = document.querySelector('dad-joke');
+    const body = document.querySelector('#dad-joke');
     const p = document.createElement('p');
     p.textContent = joke;
     body.appendChild(p);
