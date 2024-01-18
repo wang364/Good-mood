@@ -3,48 +3,22 @@
   <head>
     <meta charset="uft-8" />
     <link rel="stylesheet" href="https://p.trellocdn.com/power-up.min.css" />
+    <link rel="stylesheet" href="../css/style.css">
     <script src="https://p.trellocdn.com/power-up.min.js"></script>
     <script src="../js/jquery-3.7.1.js"></script>
     <title>Good Mood</title>
   </head>
   <body>
-    <div id="image-container"></div>
-    <script>
-        try {
-            fetch('https://icanhazdadjoke.com/', {
-                headers: {
-                    "Accept": "application/json",
-                },
-            })
-                .then(response => {
-                    return response.json();
-                })
-                .then(data => {
-                    displayJoke(data.joke);
-                });
-        } catch (error) {
-            console.error("Error: ", error);
-        };
-
-        function displayJoke(joke) {
-            const body = document.querySelector('body');
-            const p = document.createElement('p');
-            p.textContent = joke;
-            body.appendChild(p);
-        }
-
-        $(document).ready(function(){
-            const xhr = $.get("http://api.giphy.com/v1/gifs/search?q=funny&api_key=awEx0G1tfuWQDbz6jXdFEHAwoYmpdiyA&limit=1");
-            xhr.done(function(gif) { console.log("success got data", gif); displayGif(gif.data[0].url)});
-        });
-
-        function displayGif(url) {
-            console.log(url);
-            const img = $('<img>').attr('src', url).attr('alt', 'funny');
-            $('#image-container').append(img);
-        }
-
-        
-    </script>
+    <div class="container">
+        <nav class="topnav">
+            <a href="good_mood.html">Have fun</a>
+            <a href="self_talk.html">Self talk</a>
+            <a href="game_2048.html">Take a break</a>
+            <a href="#">Say thank you</a>
+        </nav>
+        <div id="dad-joke"></div>
+        <div id="image-container"></div>
+    </div>
+    <script src="../js/good_mood.js"></script>
   </body>
 </html>
