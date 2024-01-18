@@ -19,7 +19,7 @@ function displayJoke(joke) {
     const body = document.querySelector('dad-joke');
     const p = document.createElement('p');
     p.textContent = joke;
-    $('#dad-joke').appendChild(p);
+    body.appendChild(p);
 }
 
 
