@@ -22,7 +22,7 @@ function displayJoke(joke) {
     body.appendChild(p);
 }
 
-
+/* 
 $(document).ready(function(){
     const xhr = $.get("http://api.giphy.com/v1/gifs/search?q=funny&api_key=awEx0G1tfuWQDbz6jXdFEHAwoYmpdiyA");
     //const xhr = $.get("http://api.giphy.com/v1/gifs/random?tag=funny&api_key=awEx0G1tfuWQDbz6jXdFEHAwoYmpdiyA");
@@ -33,4 +33,4 @@ function displayGif(url) {
     console.log(url);
     const img = $('<img>').attr('src', url).attr('alt', 'funny');
     $('#image-container').append(img);
-}
+} */
