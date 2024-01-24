@@ -38,7 +38,7 @@ body {
     font-family: "Clear Sans", "Helvetica Neue"
 }
 
-.discriptions {
+.descriptions {
     font-size: 1.5rem;
     color: #776E65;
 }
@@ -100,7 +100,11 @@ h1 {
     color: #FFFFFF;
 }
 
-.game #score {
+.game {
+    color: #776E65;
+}
+
+#score {
     font-size: 1.5rem;
 }
 
