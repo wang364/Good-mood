@@ -38,8 +38,8 @@ body {
     font-family: "Clear Sans", "Helvetica Neue"
 }
 
-.discriptions {
-    font-size: 1.5rem;
+.descriptions {
+    font-size: 1.25rem;
     color: #776E65;
 }
 
@@ -58,7 +58,7 @@ h1 {
 
 .container {
     width: 468px;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .info {
@@ -100,8 +100,12 @@ h1 {
     color: #FFFFFF;
 }
 
+.game {
+    color: #776E65;
+}
+
 #score {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .score-title {
@@ -111,7 +115,7 @@ h1 {
 
 /******* self_talk */
 .saying {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
 
 }
 
