@@ -16,7 +16,7 @@ window.TrelloPowerUp.initialize({
         dark: WHITE_ICON,
         light: BLACK_ICON
       },
-      text: 'Callback',
+      text: 'Good Mood',
       callback: onBtnClick,
       condition: 'edit'
     }];
