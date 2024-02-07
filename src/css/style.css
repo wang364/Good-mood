@@ -49,9 +49,12 @@ body {
 }
 
 /******* good mood */
-#dad-joke {
+#dad-joke #selftalk {
     padding-left: 1rem;
+    width: 456px;
+    height: 456px;
 }
+
 
 /******* game 2048 */
 h1 {
