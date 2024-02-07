@@ -5,12 +5,12 @@ nav {
     width: 12rem;
 }
 /* Add a black background color to the top navigation */
-.topnav {
+.sidenav {
     overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.topnav a {
+.sidenav a {
     float: left;
     color: #faf8ef;
     background-color: #BBADA0;
@@ -23,13 +23,13 @@ nav {
 }
 
 /* Change the color of links on hover */
-.topnav a:hover {
+.sidenav a:hover {
     background-color: #faf8ef;
     color: #BBADA0;
 }
 
 /* Add a color to the active/current link */
-.topnav a.active {
+.sidenav a.active {
     background-color: #04AA6D;
     color: white;
 }
@@ -50,6 +50,7 @@ body {
 /******* good mood */
 #dad-joke {
     width: 456px;
+
 }
 
 #selftalk {
