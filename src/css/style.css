@@ -1,10 +1,12 @@
 /******* nav */
 nav {
-    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 12rem;
+    margin-right: 1rem;
 }
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #BBADA0;
     overflow: hidden;
 }
 
@@ -12,10 +14,13 @@ nav {
 .topnav a {
     float: left;
     color: #faf8ef;
+    background-color: #BBADA0;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.5rem 0.25rem;
     text-decoration: none;
     font-size: 17px;
+    margin: 1rem;
+    border: 2px solid faf8ef;
 }
 
 /* Change the color of links on hover */
@@ -57,14 +62,18 @@ h1 {
 }
 
 .container {
-    width: 468px;
+    width: 668px;
+    height: 520px;
     margin-top: 5px;
+    display: -webkit-box;
+    justify-content: center;
+    align-items: center;
 }
 
 .info {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .grid {
@@ -75,7 +84,6 @@ h1 {
     background-color: #BBADA0;
     border: 7px solid #BBADA0;
     border-radius: 6px;
-    margin-top: 20px;
 }
 
 .grid div {
