@@ -3,7 +3,6 @@ nav {
     display: flex;
     flex-direction: column;
     width: 12rem;
-    margin-right: 1rem;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -49,10 +48,12 @@ body {
 }
 
 /******* good mood */
-#dad-joke #selftalk {
-    padding-left: 1rem;
+#dad-joke {
     width: 456px;
-    height: 456px;
+}
+
+#selftalk {
+    width: 456px;
 }
 
 
