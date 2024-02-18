@@ -11,7 +11,8 @@ window.TrelloPowerUp.initialize({
       // we can either provide a button that has a callback function
       icon: 'https://icanhazdadjoke.com/static/smile.svg',
       text: 'Good Mood',
-      callback: onBtnClick
+      callback: onBtnClick,
+      condition: 'edit'
     }];
   }
 });
