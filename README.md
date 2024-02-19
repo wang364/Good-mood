@@ -11,6 +11,20 @@ If a person is happy, then the happiness will be passed on to the people around 
 - If a person is happy, then he is also the most productive.
 - If a person is happy, then he will not feel tired at work.
 
+### We offer three features
+- Self-talk to build confidence and improve self-recognition;
+- A joke to make you feel better;
+- A little game to relax.
+
+### I am still developing the fourth feature
+- Used to express gratitude to co-working partners.
+
+If you have any suggestions or needs, please contact <wbohome@outlook.com>
+
+
+
+---
+
 1. Laugh and Smile more.
 2. Take small breaks throughout the day.
 3. Find reasons to celebrate.
