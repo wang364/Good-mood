@@ -13,9 +13,3 @@
       script-src 'self' https://p.trellocdn.com;
       style-src 'self' https://p.trellocdn.com;
       frame-ancestors https://trello.com;'''
-
-  # enable CORS on one of our string files to enable testing
-[[headers]]
-  for = "/en.json"
-    [headers.values]
-      Access-Control-Allow-Origin = "*"
