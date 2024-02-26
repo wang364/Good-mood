@@ -61,6 +61,7 @@ body {
 /******* game 2048 */
 .container {
     width: 668px;
+    height: 404px;
     margin-top: 5px;
     display: -webkit-box;
     justify-content: center;

@@ -140,7 +140,7 @@ Try Hello Epics free for 14 days.
 Hello Epics at a glance
 
 # Popular ways to use Hello Epics
- - Share your best work by creating separate internal and client-facing boards, and moving cards across boards as needed. Hello Epics continues to track all related items, regardless of where the card lives.
+- Share your best work by creating separate internal and client-facing boards, and moving cards across boards as needed. Hello Epics continues to track all related items, regardless of where the card lives.
 - Track feature requests by creating cards for each request and grouping them by feature type.
 - Increase project visibility by sharing parent cards with stakeholders and reserving child cards for your project team.
 
