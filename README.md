@@ -118,3 +118,78 @@ Examples of positive self-talk to…
 - 如果一个人是快乐的，那么也能更好的和周围的人合作。 
 - 如果一个人是快乐的，那么也是最有效率的。 
 - 如果一个人是快乐的，那么工作起来也不会觉得累。
+
+
+
+--- 
+
+Hello Epics helps you track and manage complex projects by creating linked groupings of cards. Manage relationships—even across boards—whether you’re building an app, managing inventory, or planning a trip.
+
+# What our users are saying
+> Hello Epics has quickly become my most useful Power-Up - it's revolutionized the way I work!  
+> — Emily Woods, MotoRad
+
+Hello Epics solved many of my struggles by providing such an awesome integration into Trello; it was exactly what I needed to be as productive as I knew I could be.
+— Justin Nixon, Gartner
+
+Our engineering team uses sprints, and we transferred the work methodology into other areas of the business (like customer success and marketing) using Hello Epics.
+— Judith Baeta, Paddl
+
+Try Hello Epics free for 14 days.
+
+Hello Epics at a glance
+
+# Popular ways to use Hello Epics
+ - Share your best work by creating separate internal and client-facing boards, and moving cards across boards as needed. Hello Epics continues to track all related items, regardless of where the card lives.
+- Track feature requests by creating cards for each request and grouping them by feature type.
+- Increase project visibility by sharing parent cards with stakeholders and reserving child cards for your project team.
+
+# Hello Epics enables you to...
+
+## Build relationships
+
+Nest child cards under their parent — or multiple parents — to create a hierarchy of cards. Link related cards across multiple boards to easily create dependencies, visualize related workstreams, and track overall progress.
+
+## Get more done
+
+Just as there are different ways to finish work, there are different ways to track completion. Choose from three different ways to mark a card as complete:
+
+- Completing all items in a card’s checklist
+- Marking it done via due date
+- Moving a card to a designated ‘Done’ column
+
+Complete cards and track progress
+
+## See the big picture
+
+Parent cards show how many children have been completed and how many are left. Click on parent cards to dive deeper: see an epic’s completion percentage and which list each child card is in. Navigate intuitively from parent to child and back again.
+
+## Prioritize and update child cards
+
+Drag and drop your child cards right on your parent to prioritize or change
+their status.
+
+Drag and drop child cards
+
+## Grow your hierarchy
+
+Hello Epics works intuitively. Create and attach child cards in three different ways:
+
+Convert checklist items to child cards
+Create new child cards directly on the parent
+Attach existing cards as child cards
+Create new child cards directly from the parent
+
+## Work with other Power-Ups
+
+We’re integrated with two popular Power-Ups so they work hand in hand with Hello Epics: Agile Tools by Corello and Card Numbers by Reenhanced. If you have these Power-Ups installed on your boards, then you’re good to go — there’s no setup needed.
+
+## Protect your data
+
+Hello Epics is committed to managing your data securely and transparently. We do not store any of your content — in fact, we never even see it. We will never share your personal information, and we are GDPR compliant.
+
+## Support when you need it
+
+If you need help with anything, email us at support@helloepics.com or visit our support site. We'll respond quickly and help any way we can.
+
+Hello Epics was built by Substantial in Seattle, WA.
