@@ -155,3 +155,7 @@ li::before {
 li:not(:first-of-type)::before {
     padding-top: 12px;
 }
+
+.res {
+    display: none;
+}
