@@ -2,6 +2,8 @@
 
 ## Make us a happy worker, make trello a happy place to work.
 
+![good mood](./src/resource/goodmood.gif)
+
 ### The importance of happiness
 
 If a person is happy, then the happiness will be passed on to the people around him. A happy state is the best state of work. The products produced are also of the highest quality.
