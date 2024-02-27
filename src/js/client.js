@@ -1,7 +1,8 @@
 var onBtnClick = function (t, opts) {
     return t.modal({
         title: "Keep a good mood!",
-        url: 'self_talk.html'
+        url: 'self_talk.html',
+        height: 410
     });
 };
 
