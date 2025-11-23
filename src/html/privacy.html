@@ -2,39 +2,209 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>World Clock for Trello</title>
- <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <title>Jira Issue Reminder – Privacy Policy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
+  <style>
+    :root {
+      --bg: #ffffff;
+      --fg: #222222;
+      --muted: #666666;
+      --accent: #0052cc;
+      --line: #e6e6e6;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1e1e1e;
+        --fg: #e6e6e6;
+        --muted: #999999;
+        --accent: #4c9aff;
+        --line: #333333;
+      }
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      padding: 2rem 0;
+      margin-bottom: 2rem;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      margin-bottom: .5rem;
+    }
+    .date {
+      color: var(--muted);
+      font-size: .9rem;
+    }
+    h2 {
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      font-size: 1.4rem;
+      font-weight: 600;
+    }
+    p {
+      margin-bottom: 1rem;
+    }
+    ul {
+      padding-left: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .actions {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      display: flex;
+      gap: .75rem;
+    }
+    .actions button {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      width: 48px;
+      height: 48px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0,0,0,.15);
+      transition: transform .2s;
+    }
+    .actions button:hover {
+      transform: scale(1.1);
+    }
+    footer {
+      margin-top: 4rem;
+      padding: 2rem 0;
+      font-size: .85rem;
+      color: var(--muted);
+      text-align: center;
+      border-top: 1px solid var(--line);
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+      .actions {
+        right: 1rem;
+        bottom: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div class="container py-3">
-    <header>
-      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-        <h1 class="display-4 fw-normal text-body-emphasis">Privacy Policy</h1>
-      </div>
-    </header>
-  
-    <main>
-      <h5>The information we collect</h5>
-      <p>We do not store or access any data used by the application. 
-        The application operates within the user's browser, 
-        and data flows directly from forge API to the user's browser.
-       </p>
-      <h5>What are cookies?</h5>
-      <p>Cookies are text files placed on your computer to collect standard Internet log information and visitor behavior information. We don't use cookies yet. </p>
-      <h5>Integrated Partners</h5>
-      <p>Integrated Partners may include, but are not limited to:</p>
-      <ul>
-        <li>Atlassian. Refer to privacy policy at <a href="https://www.atlassian.com/legal/privacy-policy">https://www.atlassian.com/legal/privacy-policy</a></li>
-      </ul>
-      <h5>How to contact us</h5>
-      <p>If you would like to contact us with any queries or comments please send an email to <a href="mailto:wbohome@outlook.com">wbohome@outlook.com</a>.</p>
-      <p class="fst-italic">Last updated on 2025-11-23</p>
-    </main>
-  
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
-      <p>©2025 · <a href="mailto:wbohome@outlook.com">wbohome@outlook.com</a> · <a href="privacy.html">Privacy</a> </p>
-    </footer>
+  <header>
+    <div class="container">
+      <h1>Jira Issue Reminder – Privacy Policy</h1>
+      <div class="date">Last updated: 23 November 2025</div>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>1. Introduction</h2>
+    <p>Thank you for using the Jira Issue Reminder application. This Privacy Policy explains how we collect, use, store, and protect your information, and the rights you have. By using the application you agree to the practices described below.</p>
+
+    <h2>2. Information We Collect</h2>
+    <p>The application operates inside Atlassian Jira to help you set up and manage JQL-based issue reminders. We may collect and process:</p>
+    <ul>
+      <li><strong>JQL query content</strong> – the statements you configure in the app</li>
+      <li><strong>Usage data</strong> – feature usage, error logs, etc.</li>
+      <li><strong>User identifiers</strong> – information required for authentication and authorisation</li>
+    </ul>
+
+    <h2>3. How We Use Information</h2>
+    <p>We use the information to:</p>
+    <ul>
+      <li>Provide, maintain, and improve the application</li>
+      <li>Execute JQL queries and generate reminders</li>
+      <li>Keep the application secure and stable</li>
+      <li>Respond to support requests and feedback</li>
+    </ul>
+
+    <h2>4. Data Storage &amp; Retention</h2>
+    <ul>
+      <li>All data is stored in secure storage provided by the Atlassian Forge platform</li>
+      <li>We retain data only as long as necessary for the purposes outlined above</li>
+      <li>Industry-standard security measures are used to prevent unauthorised access, disclosure, alteration, or destruction</li>
+    </ul>
+
+    <h2>5. Data Sharing</h2>
+    <p>We do not sell personal data. We may share information:</p>
+    <ul>
+      <li>With your explicit consent</li>
+      <li>To comply with applicable laws, regulations, or legal processes</li>
+      <li>To protect the rights, property, or safety of the app, its users, or the public</li>
+    </ul>
+
+    <h2>6. Data Controller</h2>
+    <p>The data controller is the application developer. Contact us through the in-app support channels.</p>
+
+    <h2>7. Your Rights</h2>
+    <p>Depending on your jurisdiction, you may have the right to:</p>
+    <ul>
+      <li>Access your personal data</li>
+      <li>Correct inaccurate data</li>
+      <li>Request deletion of your data (under certain conditions)</li>
+      <li>Restrict or object to processing</li>
+      <li>Data portability</li>
+    </ul>
+
+    <h2>8. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. Major changes will be communicated through in-app notifications or other appropriate means. Please review the policy periodically.</p>
+
+    <h2>9. Governing Law</h2>
+    <p>This Privacy Policy is governed by the laws of your region or country, as applicable.</p>
+
+    <h2>10. Contact Us</h2>
+    <p>If you have any questions or concerns about this Privacy Policy, please contact us through the application support channels.</p>
+  </main>
+
+  <div class="actions">
+    <button id="copyBtn" aria-label="Copy link">
+      <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M10 20H4a2 2 0 01-2-2V6a2 2 0 012-2h6v2H4v12h6v2zm10-8h-6V6a2 2 0 012-2h6a2 2 0 012 2v12a2 2 0 01-2 2h-6v-2h6V10z"/>
+      </svg>
+    </button>
+    <button id="topBtn" aria-label="Back to top">
+      <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24">
+        <path d="M13 19V7.83l4.88 4.88 1.42-1.41L12 4 4.7 11.3l1.42 1.41L11 7.83V19z"/>
+      </svg>
+    </button>
   </div>
+
+  <footer>
+    © 2025 Jira Issue Reminder. All rights reserved.
+  </footer>
+
+  <script>
+    document.getElementById('topBtn').onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+    document.getElementById('copyBtn').onclick = () => {
+      navigator.clipboard.writeText(location.href).then(() => {
+        const b = document.getElementById('copyBtn');
+        b.style.transform = 'scale(1.3)';
+        setTimeout(() => b.style.transform = 'scale(1)', 600);
+      });
+    };
+  </script>
 </body>
 </html>
